@@ -1,0 +1,58 @@
+* {
+        margin: 0;
+        box-sizing: border-box;
+}
+body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-flow: column;
+}
+
+.carousel {
+        height: 90%;  
+}
+nav {
+        z-index: 999;
+
+}
+img {
+        object-fit: cover;
+        object-position: center;
+        height: 100%;
+        overflow: hidden; 
+}
+.carousel-inner{
+        height: 100%;
+        width: 100%;
+
+}
+#noside {
+        padding: 0 0 !important;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+
+}
+.container2, .container3 {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+
+}
+
+.forma {
+        width: 100%;
+}
+@media (min-width:768px) {
+        .forma {
+                width: 50%;
+        }
+        
+}
+#formfoto {
+
+        object-fit: scale-down;
+        width: 75%;
+        height: auto;
+}

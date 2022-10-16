@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+  <body>
+    <!--Navigation bar-->
+    <div id="nav-placeholder"></div>
+
+    <script>
+      $(function () {
+        $("#nav-placeholder").load("nav.html");
+      });
+    </script>
+    <!--end of Navigation bar-->
+    <div
+      class="container3 d-flex flex-row justify-content-between align-items-center pt-5 w-100"
+    >
+      <!-- Start of form -->
+
+      <div class="forma p-3 pt-5 border border-3 border-danger">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >Email address<label class="text-danger">*</label></label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter email"
+              required
+            />
+            <div id="emailHelp" class="form-text">
+              We'll ALWAYS share your email with everyone else.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label"
+              >Name<label class="text-danger">*</label></label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="formGroupExampleInput2"
+              placeholder="Enter name"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label class="" for="specificSizeSelect">City</label>
+            <select class="form-select" id="specificSizeSelect" required>
+              <option selected>Choose...</option>
+              <option value="1">Trolltown</option>
+              <option value="2">Trollville</option>
+              <option value="3">Memepark</option>
+            </select>
+          </div>
+          <div class="form-check mb-3">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="flexRadioDefault"
+              id="flexRadioDefault1"
+            />
+            <label class="form-check-label" for="flexRadioDefault1">
+              Opt in for spam
+            </label>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Your question</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+              required
+            ></textarea>
+          </div>
+          <div class="form-check mb-3">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+              required
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              I agree
+            </label>
+          </div>
+          <div class="mb-3">
+            <button class="btn btn-success" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+      <div
+        class="d-md-flex justify-content-center align-items-center foto d-none d-md-block w-50 h-100"
+      >
+        <img
+          id="formfoto"
+          class=""
+          src="https://picsum.photos/id/1040/600/400"
+          alt=""
+        />
+      </div>
+    </div>
+    <!-- End of form -->
+    <!-- sudas -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
